@@ -1,0 +1,171 @@
+/*============
+    Css Reset
+=============*/
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+/*=====================
+    Formatação geral
+======================*/
+
+html {
+    font-size: calc(3px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243D;
+}
+main {
+    margin: 0 20vw 0 20vw;
+}
+
+html body a{
+    text-decoration: none;
+    color: #21243D;
+}
+/*=====================
+    Formatação do topo da página
+======================*/
+header {
+    margin: 0 5vw 3vw 5vw; /* px= absoluta, vw= relativo, depende da tela, divide a tela em 100 */
+}
+header nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li{
+    margin: 1vw 10px 0 10px;
+}
+header nav ul li.atual a{
+    color: #FF6464;
+}
+/*=====================
+    Formatação de Works
+======================*/
+main.works h1 {
+    font-weight: 100;
+    margin: 0 0 0 0;
+}
+main.works section {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 3vw 0 2vw 0;
+}
+main.works section:last-child {
+    border: none;
+}
+main.works section  p {
+    margin: 1vw 0 1vw 0;
+}
+main.works section p span {
+    color: #ffffff;
+    background-color: #FF7C7C;
+    border-radius: 30px;
+    padding: 2px 10px 2px 10px;
+    font-weight: bold;
+}
+/*=====================
+    Formatação home page
+======================*/
+section.banner {
+    display: flex;
+    margin: 6vw 0 3vw 0;
+}
+section.banner h1 {
+    font-size: 2rem;
+}
+section.banner p {
+    font-size: 0.8rem;
+    margin: 2vw 6vw 2vw 0;
+}
+section.banner button {
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    background-color: #FF6464;
+    font-size: 1.1rem;
+    border-radius: 2px;
+}
+section.rt-posts {
+    background-color: #edf7fa;
+    padding: 2vw 1vw 2vw 1vw ;
+}
+section.rt-posts h2 {
+    font-weight: normal;
+    margin: 0 0 2vw 0;
+}
+section.rt-posts ul {
+    display: flex;
+    border-radius: 50px;
+}
+section.rt-posts ul li {
+    background-color: #ffffff;
+    padding: 2vw 10px 15px 10px;
+    margin: 0 3vw 0 0;
+}
+section.rt-posts ul li:last-child {
+    margin: 0;
+}
+section.rt-posts ul li p {
+    padding: 1.6vw 0 1vw 0;
+    margin: 0 0 2.5vw 0;
+}
+
+section.ft-works h2 {
+    font-size: 2rem ;
+    margin: 2vw 0 2vw 0;
+    font-weight: normal;
+}
+
+section.ft-works > div {
+    display: flex;
+}
+
+section.ft-works div h3 {
+    padding: 0 0 0 0; 
+    font-size: 1.5rem;
+}
+
+section.ft-works div p.graycolor {
+    margin: 1.5vw 0 1.5vw 0;
+    color: #8695a4;                                                                                                            
+}
+
+section.ft-works div p span {
+    color: #ffffff;
+    background-color: #142850;
+    border-radius: 30px;
+    padding: 2px 10px 2px 10px;
+    font-weight: bold;
+}
+
+section.ft-works div p {
+    margin: 0 0 4vw 0;
+}
+
+/*=====================
+    Formatação de rodapé
+======================*/
+footer {
+    text-align: center;
+    padding: 0 0 2vw 0;
+}
+footer p {
+    font-size: 15px;
+    margin: 20px 0 0 0;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer nav ul li {
+    margin: 0 20px 0 20px;
+    font-size: 2rem;
+}
+footer nav ul li a span {
+    color: #21243D;
+}
